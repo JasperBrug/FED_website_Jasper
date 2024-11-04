@@ -64,11 +64,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 4.	De screenreader vertelt niet op welke je pagina zit. Hij zegt dat je je op een groep bevind in webmateriaal. 
 5. De screenreader vertelt ook niet vaak wat voor element het is. 
 
-<img src="images/toegankelijkheidstest/toegankelijkheidstest_foto_5.png" alt="toegankelijkheidstest foto 5">
-<img src="images/toegankelijkheidstest/toegankelijkheidstest_foto_4.png" alt="toegankelijkheidstest foto 4">
-<img src="images/toegankelijkheidstest/toegankelijkheidstest_foto_3.png" alt="toegankelijkheidstest foto 3">
-<img src="images/toegankelijkheidstest/toegankelijkheidstest_foto_2.png" alt="toegankelijkheidstest foto 2">
-<img src="images/toegankelijkheidstest/toegankelijkheidstest_foto_1.png" alt="toegankelijkheidstest foto 1">
+<img src="readme-images/toegankelijkheidstest/toegankelijkheidstest_foto_5.png" width="375px" alt="toegankelijkheidstest foto 5">
+<img src="readme-images/toegankelijkheidstest/toegankelijkheidstest_foto_4.png" width="375px" alt="toegankelijkheidstest foto 4">
+<img src="readme-images/toegankelijkheidstest/toegankelijkheidstest_foto_3.png" width="375px" alt="toegankelijkheidstest foto 3">
+<img src="readme-images/toegankelijkheidstest/toegankelijkheidstest_foto_2.png" width="375px" alt="toegankelijkheidstest foto 2">
+<img src="readme-images/toegankelijkheidstest/toegankelijkheidstest_foto_1.png" width="375px" alt="toegankelijkheidstest foto 1">
 
 
 </details>
