@@ -454,8 +454,8 @@ main p{
 
 .blokken li{
 	display: flex;
-	justify-content: center;
-	align-items: baseline;
+	flex-direction: column;
+	align-items: center;
 	font-size: 10px;
 	color: rgb(0, 0, 0);
 	font-style: normal;
@@ -463,6 +463,10 @@ main p{
 	background-color: rgb(255, 255, 255);
 	padding: 3em 3em;
 	box-shadow: #c3c3c3 0px -1px 3px ;
+}
+.blokken li img{
+	width: 3em;
+	height: 3em;
 }
 
 
@@ -536,6 +540,8 @@ main p{
 
 
 .infohypotheek2 li {
+	display: flex;
+	align-items: center;
 	border-radius: 5px;
 	font-weight: 100;
 	font-size: 10px;
@@ -548,6 +554,11 @@ main p{
 	display: block;
 	transition: .5s;
 }
+.infohypotheek2 li img{
+	width: 5em;
+	height: 5em;
+}
+
 .infohypotheek2 li a h3{
 	font-weight: 100;
 }
@@ -713,7 +724,9 @@ main p{
 
 #sleutelplaatje{
 	display: flex;
-	max-width: 30vw;
+	min-width: 6em;
+	min-height: 6em;
+	max-width: 10vw;
 }
 
 .oranjebutton{
@@ -821,10 +834,27 @@ footer article ul li img{
 
 
 .Hulp li{
-	font-weight: 500;
+	display: flex;
+	align-items: center;
 	font-size: 0.8em;
-
 }
+.Hulp li img{
+	width: 5em;
+	height: 5em;
+}
+.Hulp li a{
+	padding: 1em;
+}
+
+.Hulp li a h3{
+	font-weight: 100;
+}
+
+.Hulp li a p{
+	font-weight: 100;
+	color: #515151;
+}
+
 @media(min-width: 479px ){
 	.Hulp li a{
 		font-size: 1.5em;
