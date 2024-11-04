@@ -164,18 +164,6 @@ header div{
 	margin-left: 0.5em;
 
 }
-.terug{
-	display: flex;
-	align-items: center;
-	margin-left: 1em;
-	padding: 1em;
-}
-.terug img{
-	width: 5vw;
-}
-#Headerimg1{
-	width: 100%;
-}
 
 #Headerimg2{
 	margin-top: 5rem;
@@ -250,23 +238,23 @@ header article h1{
 	font-style: italic;
 	font-size: 2em;
 	margin: 0%;
-	padding: 10px;
+	padding: 0.6em;
 }
 header article h2{
 	color: white;
 	font-weight: 100;
 	font-style: italic;
 	font-size: 1.5em;
-	padding: 10px;
+	padding: 0.6em;
 }
 
 header button{
 	background-color: var(--Rabooranje);
 	font-weight: 700;
 	font-size: 110%;
-	padding: 12px 24px;
+	padding: 0.8em 1.5em;
 	border: 0;
-	border-radius: 5px;
+	border-radius: 0.3em;
 	margin-left: 1em;
 	margin-right: 1em;
 	margin-bottom: 1em;
@@ -399,7 +387,7 @@ main p{
 	align-items: center;
 	flex-direction: column;
 	flex-wrap: wrap;
-	padding: 16px 24px 24px;
+	padding: 1em 1.5em 1.5em;
 	gap: 10px;
 	width: 450px;
 	height: 330px;
@@ -440,8 +428,7 @@ main p{
 	grid-template-rows: 1fr 1fr;
 	justify-content: center;
 	align-items: center;
-	padding: 0;
-	gap: 10px;
+	gap: 0.6em;
 }
 /* https://www.youtube.com/watch?v=EiNiSFIPIQE&ab_channel=SlayingTheDragon*/
 /* grid uitleg*/
@@ -456,7 +443,7 @@ main p{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	font-size: 10px;
+	font-size: 0.6em;
 	color: rgb(0, 0, 0);
 	font-style: normal;
 	font-weight: bold;
@@ -498,7 +485,7 @@ main p{
 	align-items: center;
 	border-radius: 5px;
 	font-weight: 100;
-	font-size: 10px;
+	font-size: 0.6em;
 	width: 100%;
 	box-shadow: #c3c3c3 0px -1px 3px ;
 	margin-bottom: 0.8em;
@@ -532,7 +519,7 @@ main p{
 .infohypotheek2{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
-	gap: 10px;
+	gap: 0.6em;
 	padding: 1em;
 	width: 100%;
 }
@@ -542,9 +529,9 @@ main p{
 .infohypotheek2 li {
 	display: flex;
 	align-items: center;
-	border-radius: 5px;
+	border-radius: 0.3em;
 	font-weight: 100;
-	font-size: 10px;
+	font-size: 0.6em;
 	box-shadow: #c3c3c3 0px -1px 3px ;
 }
 
@@ -619,7 +606,7 @@ main p{
 	font-size: 110%;
 	padding: 1em;
 	border: 0;
-	border-radius: 5px;
+	border-radius: 0.3em;
 	margin-left: 1em;
 	margin-right: 1em;
 	margin-bottom: 1em;
@@ -631,7 +618,7 @@ main p{
 }
 
 .woonplanner{
-	border-radius: 5px;
+	border-radius: 0.3em;
 	color: var(--heading);
 	padding: 1em 1em;
 	margin-left: 1em;
@@ -734,7 +721,7 @@ main p{
 	font-weight: 700;
 	font-size: 110%;
 	border: 0;
-	border-radius: 5px;
+	border-radius: 0.3em;
 	width: 200px;
 	padding: 1em;
 
@@ -749,7 +736,7 @@ main p{
 #woonthemas{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
-	gap: 10px;
+	gap: 0.6px;
 	margin-left: 0;
 }
 
@@ -766,8 +753,8 @@ main p{
 .positionfoto h3{
 	position: absolute;
 	font-size: 1.5em;
-	bottom: 10px;
-	left: 10px;
+	bottom: 0.8em;
+	left: 0.8em;
 	color: white;
 }
 .positionfoto img{
@@ -924,7 +911,7 @@ footer div img{
 	font-weight: 700;
 	font-size: 110%;
 	border: 0;
-	border-radius: 5px;
+	border-radius: 0.3em;
 	width: 100%;
 	padding: 1em;
 }
